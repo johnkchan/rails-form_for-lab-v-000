@@ -9,7 +9,7 @@ class SchoolClassesController < ApplicationController
   end
   
   def index
-    
+    @school_classes = SchoolClass.all
   end
   
   def show
